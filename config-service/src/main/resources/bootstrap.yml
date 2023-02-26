@@ -1,2 +1,7 @@
 encrypt:
-  key: abcdefghijklmnopqrstuvwxyz0123456789
+#  key: abcdefghijklmnopqrstuvwxyz0123456789
+  key-store:
+#    location: file://${user.home}/Desktop/Intellij/keystore/apiEncryptionKey.jks
+    location: file:/apiEncryptionKey.jks
+    password: 12345678
+    alias: apiEncryptionKey

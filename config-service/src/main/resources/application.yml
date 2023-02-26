@@ -19,6 +19,8 @@ spring:
         git:
 #          uri: file:///Users/kimjisu/Desktop/Intellij/inflearn/cloud-config
           uri: https://github.com/jisu3316/spring-cloud-config.git
+#          username: [username]
+#          password: [password]
 
 management:
   endpoints:
